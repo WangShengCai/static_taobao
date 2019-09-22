@@ -1,0 +1,97 @@
+/* 清除页面标签默认样式 */
+body,p,h1,h2,h3,h4,dl,dt{
+    margin:0;
+}
+body{
+    /* 
+    font-size:12px;
+    line-height:1.5;
+    font-family:'tahoma', 'arial','\5b8b\4f53';         \5b8b\4f53  --> SimSun  --> 宋体
+    */
+    font:12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    background-color:#f4f4f4;
+    color:#3c3c3c;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+img{
+    border:none;                    /* 只有在ie中才会显示，chrome中不会显示 */
+    vertical-align:middle;
+}
+a{
+    text-decoration:none;
+    color:#3c3c3c;
+}
+i{
+    font-style:normal;
+}
+input{
+    margin:0;
+    padding:0;
+}
+button{
+    outline:none;
+}
+
+
+
+
+
+.clearfix:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+
+
+
+
+
+.layer{
+    width:1190px;
+    margin:0 auto;
+}
+.c4{
+    color:#f40;
+}
+.c5{
+    color:#f50;
+}
+.c6{
+    color:#8d7afb;
+}
+.c7{
+    color:#a8c001;
+}
+.mr5{
+    margin-right:5px;
+}
+.mr7{
+    margin-right:7px;
+}
+.mt10{
+    margin-top:10px;
+}
+.mr10{
+    margin-right:10px;
+}
+
+
+
+
+
+table{
+    border-collapse:collapse;           /* 两条边框显示一条就可以了 */
+}
+table th,td{
+    padding:0;
+}
